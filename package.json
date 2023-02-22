@@ -1,0 +1,22 @@
+{
+  "name": "container-registry-valdiator",
+  "version": "1.0.0",
+  "description": "an utility application to check if a container image exists by given image URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "container",
+    "image",
+    "validation"
+  ],
+  "author": "apb@live.in",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.14.0",
+    "axios": "^1.3.3"
+  }
+}
