@@ -7,7 +7,7 @@ async function checkImageExists(imageUrl) {
     const hasProtocol = imageUrl.includes("https") || imageUrl.includes("http");
     if(!hasProtocol){
       console.log(`imageurl doesnot contain any protocol checking with https`);
-      imageUrl = "http://"+imageUrl;
+      imageUrl = "https://"+imageUrl;
     }
     const response = await axios.head(imageUrl);
     return response.status === 200;
